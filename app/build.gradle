@@ -9,7 +9,13 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
+
+    dataBinding {   /*First we add this code blocks*/
+        enabled true
+    }
+
     buildTypes {
         release {
             postprocessing {
@@ -22,9 +28,7 @@ android {
         }
     }
 
-    dataBinding {   /*First we add this code blocks*/
-        enabled true
-    }
+
 }
 
 dependencies {
