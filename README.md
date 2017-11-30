@@ -7,6 +7,9 @@ I think it is time to get rid of findByViewId on Android, what 'bout you? We can
 As for mentioning simply.
 
 We add dataBinding block in build.gradle
+
 We move our views into <layout> tags.
+  
 Build your project to let it Android generate required files
+
 We declare ActivityDataBinding class and start binding views easily.
